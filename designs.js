@@ -1,4 +1,4 @@
-$('#sizePicker').submit(function(event) {
+$('#sizePicker').submit(function(event){
     event.preventDefault();
     //get Grid sizes
     let gridHeight = $('#inputHeight').val();
